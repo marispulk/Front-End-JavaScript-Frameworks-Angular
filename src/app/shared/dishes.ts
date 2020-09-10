@@ -52,7 +52,7 @@ export const DISHES: Dish[] = [
         featured: false,
         label: '',
         price: '1.99',
-        description: 'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+        description: 'Deep fried Zucchini-tortilla chips coated with mildly spiced Chickpea seasoning accompanied with a sweet-tangy tamarind sauce',
         comments: [
             {
                 rating: 5,
