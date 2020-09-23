@@ -18,6 +18,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { FormsModule } from "@angular/forms";
 import { ReactiveFormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing/app-routing.module";
+import { HttpClientModule } from "@angular/common/http";
 
 import 'hammerjs';
 import { HeaderComponent } from './header/header.component';
@@ -34,6 +35,7 @@ import { DishService } from "./services/dish.service";
 import { PromotionService } from "./services/promotion.service";
 import { LeaderService } from "./services/leader.service";
 
+import { baseURL } from './shared/baseurl';
 
 @NgModule({
   declarations: [
@@ -56,6 +58,7 @@ import { LeaderService } from "./services/leader.service";
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
+    HttpClientModule,
     MatToolbarModule,
     MatListModule,
     MatGridListModule,
@@ -73,7 +76,9 @@ import { LeaderService } from "./services/leader.service";
   providers: [
     DishService,
     PromotionService,
-    LeaderService
+    LeaderService,
+    {provide: 'BaseURL', useValue: baseURL}
+
   ],
   entryComponents: [
     LoginComponent
