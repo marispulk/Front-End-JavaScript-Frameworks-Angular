@@ -45,6 +45,12 @@
           "comment": "This is a great dish!",
           "rating": 4,
           "date": "2020-09-23T10:20:04.333Z"
+        },
+        {
+          "author": "NI",
+          "comment": "Nice",
+          "rating": "5",
+          "date": "2020-09-24T12:54:15.108Z"
         }
       ]
     },
@@ -224,5 +230,16 @@
       "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
     }
   ],
-  "feedback": []
+  "feedback": [
+    {
+      "firstname": "Maris",
+      "lastname": "Pulk",
+      "telnum": "35363525",
+      "email": "pulla@hotmail.com",
+      "agree": true,
+      "contacttype": "Tel",
+      "message": "Great dishes!",
+      "id": 1
+    }
+  ]
 }
