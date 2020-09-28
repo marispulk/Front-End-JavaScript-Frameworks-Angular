@@ -13,6 +13,9 @@ Confusion is a restaurant web page, it features the following components:
 This project includes various aspects of Angular such as components, directives and services. Also template-driven forms and reactive forms.
 Observables, reactive programming and RxJS in the context of Angular is included.
 
+Project includes client-server communication through the HTTP client and the use of REST API on the server side.
+This website also uses Angular Animations.
+
 This application is developed by following Angular best practices.
 All features are broken into seperate components(or child components), all data fetching is done by injecting services, and all data models are seperated to model files. 
 All cross component communication is done via services or events.
